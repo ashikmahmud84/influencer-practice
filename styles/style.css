@@ -1,0 +1,49 @@
+
+
+body {
+  background-color: #fff;
+  
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+header {
+  padding: 20px 0;
+  background: #fff;
+}
+
+.logo {
+  font-weight: 700;
+  color: #111;
+}
+
+.logo span {
+  color: #ff0057;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff0057;
+}
+
