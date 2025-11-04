@@ -47,3 +47,48 @@ nav ul li a:hover {
   color: #ff0057;
 }
 
+.hero {
+  padding: 60px 0;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero-content .text {
+  flex: 1 1 45%;
+}
+
+.hero-content .text h1 {
+  font-size: 42px;
+  
+}
+
+.hero-content .text h1 span {
+  color: #ff0057;
+}
+
+.hero-content .text p {
+  margin: 15px 0 25px;
+  color: #666;
+}
+
+.btn {
+  background: #ff0057;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #e6004c;
+}
+
+.hero-content .image img {
+  width: 300px;
+}
