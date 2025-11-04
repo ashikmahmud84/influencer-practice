@@ -150,3 +150,47 @@ nav ul li a:hover {
   margin: 10px 0;
   font-size: 18px;
 }
+
+.price {
+  color: #ff0057;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.see-more {
+  margin-top: 25px;
+}
+
+.see-more a {
+  text-decoration: none;
+  color: #ff0057;
+  font-weight: 500;
+}
+
+
+.featured {
+  background: #f9f9f9;
+  padding: 60px 0;
+}
+
+.featured-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.featured-box .f-image img {
+  width: 400px;
+  border-radius: 15px;
+}
+
+.featured-box .f-text {
+  flex: 1 1 45%;
+}
+
+.featured-box .f-text h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
